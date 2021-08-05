@@ -21,6 +21,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
   annotationProcessor 'org.projectlombok:lombok'
 
+	implementation 'org.springdoc:springdoc-openapi-ui:1.5.10'
+
 	// I'm not sure that i need dependencies below at all
 
 	// implementation 'com.google.api-client:google-api-client:1.32.1'
