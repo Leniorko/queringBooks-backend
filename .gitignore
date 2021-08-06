@@ -35,6 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-# I use it as .env alternative
-application.properties
