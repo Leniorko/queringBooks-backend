@@ -10,6 +10,7 @@ import com.leniorko.usingbooksapi.Services.SearchService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,6 +20,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  * SearchController
  */
+// TODO: Maybe delete
+@CrossOrigin(origins = "www.example.com")
 @RestController
 public class SearchController {
 
