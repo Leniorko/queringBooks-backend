@@ -20,8 +20,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 /**
  * SearchController
  */
-// TODO: Maybe delete
-@CrossOrigin(origins = "www.example.com")
+@CrossOrigin(originPatterns = "*")
 @RestController
 public class SearchController {
 
